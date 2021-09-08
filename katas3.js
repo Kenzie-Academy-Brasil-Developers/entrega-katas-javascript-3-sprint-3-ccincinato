@@ -115,7 +115,7 @@ showResults(kata9())
 function kata10() {
     let resultado = [];
 
-    for(i=1;i<sampleArray.length;i++) {
+    for(i=0;i<sampleArray.length;i++) {
         resultado.push(sampleArray[i]) 
     }
 
@@ -183,7 +183,7 @@ showResults(kata15())
 function kata16() {
     let resultado = 0;
 
-    for(i=1;i<sampleArray.length;i++) {
+    for(i=0;i<sampleArray.length;i++) {
         resultado +=sampleArray[i]
    }
 
